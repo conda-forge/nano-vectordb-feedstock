@@ -1,5 +1,5 @@
 {% set name = "nano-vectordb" %}
-{% set version = "0.0.4.2" %}
+{% set version = "0.0.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nano_vectordb-{{ version }}.tar.gz
-  sha256: 69cf68b5149617718557b6d7c09cc625c6213017a54358238853c230cc935d85
+  sha256: 3d13074476f2b739e51261974ed44aa467725579966219734c03502c929ed3b5
   patches:
     - requirements.patch
 
